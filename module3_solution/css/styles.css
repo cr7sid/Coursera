@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+  	font-family: 'Oxygen', sans-serif;
+}
+#my-navbar {
+	transition: top 0.3s;
+}
+.navbar {
+	background-color: darkgrey;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 1.8em;
+	font-family: 'Lora', serif;
+	color: #000;
+	padding-left: 35px;
+	padding-top: 20px;
+}
+.icon-bar {
+	background-color: black; 
+}
+
+#collapsable-nav ul {
+	background-color: white;
+	border: 3px solid #000;
+	border-bottom: 0px;
+
+}
+
+#nav-list {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+
+
+#nav-list hr { 
+	margin: 0px 0px;
+	border-width: 2px; 
+	border-color: black;
+}
+.navbar-header button.navbar-toggle {
+  border: 2px solid #000;
+}
+.navbar-header .icon-bar {
+	border: 2.5px solid #000;
+}
+#main-content {
+	height: 1000px;
+	background-color: darkgray;
+}
+
